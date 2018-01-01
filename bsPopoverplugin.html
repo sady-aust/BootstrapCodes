@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h3>Popover Example</h3>
+    <a href="#" data-toggle="popover" data-placement="bottom" data-trigger ="hover" title = "popover-header" data-content = "same txt Inside the Popover">Toggle Popover</a>
+</div>
+
+<script>
+    $(document).ready(function () {
+       $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container">
+    <!--- TO create nav Tabs-->
+    <ul class="nav nav-tabs">
+      <li class="active">
+        <a href="#">Home</a>
+      </li>
+      <li class="">
+        <a href="#">Admission</a>
+      </li>
+      <li class="">
+        <a href="#">News</a>
+      </li>
+      <li class="">
+        <a href="#" class="dropdown dropdown-toggle" data-toggle = "dropdown">About Us
+          <span class="caret"></span>
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a href = "#">Mission</a></li>
+          <li><a href = "#">Vision</a></li>
+          <li><a href = "#">Exit</a></li>
+        </ul>
+      </li>
+    </ul>
+    <br>
+      <!--- TO create Nav Pills-->
+      <ul class="nav nav-pills">
+        <li class="active">
+          <a href="#" >Home
+            <span class="glyphicon glyphicon-home"></span>
+          </a>
+        </li>
+
+      </li>
+      <li class="">
+        <a href="#">Admission
+            <span class="glyphicon glyphicon-Book"></span>
+        </a>
+
+      </li>
+      <li class="">
+        <a href="#">News
+
+          <span class="glyphicon glyphicon-info-sign"></span>
+        </a>
+      </li>
+      <li class="">
+        <a href="#">About Us</a>
+      </li>
+      </ul>
+      <br>
+        <!--- TO create Vertically stacked Nav Pills-->
+  <div class="row">
+    <div class="col-sm-2">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active">
+          <a href="#" >Home</a>
+        </li>
+        <li class="">
+          <a href="#" >Home</a>
+        </li>
+        <li class="">
+          <a href="#" >Home</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+    <!--- TO create Justified Nav Pills-->
+    <ul class="nav nav-pills nav-justified">
+      <li class="active">
+        <a href="#">Home</a>
+      </li>
+      <li class="">
+        <a href="#">News</a>
+      </li>
+      <li class="">
+        <a href="#">About Us</a>
+      </li>
+    </ul>
+
+    <h2>Dynamic Pills</h2>
+
+
+      <ul class="nav nav-pills">
+      <li class="active">
+        <a href="#home" data-toggle ="pill">Home</a>
+      </li>
+      <li class="">
+        <a href="#news" data-toggle ="pill">News</a>
+      </li>
+      <li class="">
+        <a href="#aboutus" data-toggle ="pill">About Us</a>
+      </li>
+      </ul>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Home</h3>
+      <p>Welcome to My Website</p>
+    </div>
+
+    <div id = "news" class="tab-pane fade in active">
+      <h3>News</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat cupidatat non proident,   sunt in culpa qui officia deserunt
+          mollit anim id est laborum.</p>
+    </div>
+
+    <div id = "aboutus" class="tab-pane fade in active">
+      <h3>About us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+           . Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.</p>
+    </div>
+  </div>
+
+
+    </div>
+
+  </body>
+</html>

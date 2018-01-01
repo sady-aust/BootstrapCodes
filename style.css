@@ -1,0 +1,18 @@
+.customDiv{
+  background-color: silver;
+  min-height: : 300px;
+  margin: 3px;
+  text-align: center;
+}
+
+.sidebarContent{
+  background-color: green;
+  margin-bottom: 15px;
+  min-height: 150px;
+  text-align: center;
+}
+.maincontent{
+  background-color: cyan;
+  min-height: 315px;
+  text-align: center;
+}
